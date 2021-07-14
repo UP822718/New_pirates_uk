@@ -1,0 +1,93 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/88111daab9.js" crossorigin="anonymous"></script>
+
+    <title>the new pirates UK</title>   
+    <link  rel="stylesheet"  href=".\main_bars.css"></link>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./app_new.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader/dist/vue3-sfc-loader.js"></script>
+  </head>
+  <body>
+    <nav class="topbar">
+      <a id="facebook" class="fab fa-facebook"></a>
+      <a id="twitter" class="fab fa-twitter"></a>
+      <a href="\news">Discord</a>
+      <div class="right">
+      <a id="donate" class="fas fa-donate"></a>
+      <a  class="fas fa-adjust"></a>
+        <a><i id="login" class="fas fa-sign-in-alt"> Gest User</i></a>
+       </div>
+    </nav>
+
+    <h1 id="hello">The New Pirates UK</h1>
+
+    <nav class="navbar">
+      <a href="\">Home</a>
+      <a  href="\news">News</a>
+      <a href="\about-us">About us</a>
+      <a href="\policy">Policy</a>
+      <a href="\join-us">Join us</a>
+      <a href="\contact">Contact</a>
+     <from class="search">
+        <input type="search" placeholder="Search..">
+        <button type="submit" class="fa fa-search"> </button></button>
+      </from>
+    </nav>
+
+<div class="wrapper">
+<a href="" class="Branches">
+  Branches
+  <i class="fas fa-4x fa-map-signs  bet_time"></i>
+</a>
+<a href="" class="you_can_have_it_all">
+  you can have it all 
+</a>
+<a href="" class="Our_People">
+  Our People
+  <i class="fas  fa-4x fa-users bet_time"></i>
+</a>
+<a href="" class="Join">
+  Join
+  <i class="fas fa-4x fa-gift  bet_time"></i>
+</a>
+<a href="" class="Out_Beliefs">
+  Out Beliefs
+    <i class=" fa-4x fa fa-newspaper  bet_time"></i>
+</a>
+
+</div>
+
+
+<div class="main_div">
+ 
+    <section class= "recent_news">
+      <link  rel="stylesheet"  href=".\recent_news.css"></link>
+      <link  rel="stylesheet"  href=".\peaple.css"></link>
+      <h1>Recent news</h1>
+      <ul id="example-1">
+        <li v-for="item in items" :key="item.message" class="recent_news_item" >
+          <a href="" class="recent_news_grid">
+            <img class = "recent_news_image" v-bind:src="item.img" >
+            <div class>
+              <h1 class="recent_news_title" >{{ item.title}}</h1>
+              {{ item.summery }}
+            </div>
+            <div class = "recent_news_summery"><i class="fas fa-calendar-day"></i> {{ item.date }} <i class="far fa-user"></i> {{ item.author }}</div>
+            <div class = "recent_news_date"><a href="">Read More<a></div>        </a>
+        </li>
+      </ul>
+    </section>
+ 
+  <div>
+    <side_people></side_people>
+   
+    <script   src="app.js" type-"module"></script>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

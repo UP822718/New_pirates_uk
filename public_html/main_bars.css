@@ -1,0 +1,554 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Navbar container */
+  .navbar {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    height: 100%;
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+  }
+  .navbar .search{
+    float: right;
+}
+
+/* topbar container */
+  .topbar {
+    overflow: hidden;
+  }
+  
+  .topbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    
+  }
+   .search{
+    float: right;
+    height: 0%;
+    padding: 10px 10px;
+}
+
+
+
+  .dropbtn{
+      padding-left: -160px;;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .right {
+    float: right;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar a{
+    height: 102%;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+
+
+
+
+
+.main_div {
+  display: inline-grid;
+  grid-template-columns: 3.5fr 1fr;
+  gap: 1em;
+
+}
+.wrapper{
+  display: grid;
+  margin-top: 10px;
+  grid-template-areas: " Branches Our_People you_can_have_it_all"
+                       " Join Out_Beliefs you_can_have_it_all";
+                       grid-gap: 10px;
+
+}
+
+.you_can_have_it_all{
+  grid-area: you_can_have_it_all;
+  height: 100%;
+  position:relative;
+  
+
+}
+.Branches{
+  grid-area: Branches;
+  height: 5em;
+  position:relative;
+  
+}
+.Our_People{
+  grid-area: Our_People;
+  height: 5em;
+  position:relative;
+  
+}
+.Join{
+  grid-area: Join;
+  
+  height: 5em;
+  position:relative;
+  
+}
+.Out_Beliefs{
+  grid-area: Out_Beliefs;
+  height: 5em;
+  position:relative;
+  
+}
+
+.topbar {
+  background-color: #696d69;
+}
+.dropdown .dropbtn {
+}
+
+
+
+
+
+
+
+.navbar a {
+  color: #a7ada7;
+}
+
+/* topbar container */
+.topbar {
+  background-color: #a7ada7;
+}
+
+.topbar a {
+  color: black;
+  
+}
+
+  
+.dropdown .black {
+  color: black;
+}
+
+.dropdown-content {
+  background-color: #a7ada7;
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+}
+
+
+.topbar a:hover, .dropdown:hover .dropbtn {
+  color: black;
+  background-color: #696d69;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: black;
+  background-color: rgb(9, 102, 71);
+}
+.Out_Beliefs{
+  color: black;
+background-color: #a7ada7;
+}
+.Join{
+  color: black;
+  background-color: #a7ada7;
+}
+.Our_People{
+  color: black;
+  background-color: #a7ada7;
+}
+.Branches{
+  color: black;
+  background-color: #a7ada7;
+}
+.you_can_have_it_all{
+  color: black;
+  background-color: #a7ada7;
+}
+.navbar {
+  color: black;
+  background-color: #a7ada7;
+}
+.dropdown-content a:hover {
+  color: black;
+  background-color: #a7ada7;
+}
+
+/* topbar container */
+.topbar {
+  background-color: #a7ada7;
+}
+.navbar a {
+  color: black;
+}
+
+.dropdown .dropbtn {
+  color: black;
+}
+
+.dropdown-content {
+  background-color: #a7ada7;
+  color: black;
+}
+
+.dropdown-content a {
+  color: black;
+}
+
+.peaple_item .name{
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .peaple_item  spam {
+    color: white;
+    text-decoration: none;
+  }
+  .peaple_item  .name{
+    color: white;
+    text-decoration: none;
+  }
+  .topbar {
+    background-color: #595e59;
+  }
+  .dropdown .dropbtn {
+  }
+  .navbar a {
+    color: white;
+  }
+
+/* topbar container */
+  .topbar {
+    background-color: #595e59;
+  }
+  
+  .topbar a {
+    color: white;
+    
+  }
+
+    
+  .dropdown .dropbtn {
+    color: white;
+  }
+  
+  .dropdown-content {
+    background-color: #595e59;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: white;
+  }
+
+body{
+  color: white;
+  background-color: #414441;
+}
+  .topbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #707770;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(9, 102, 71);
+  }
+  .Out_Beliefs{
+  background-color: #696d69;
+  color:  white;
+  }
+  .Join{
+    background-color: #696d69;
+    color:  white;
+  }
+  .Our_People{
+    background-color: #696d69;
+    color:  white;
+  }
+  .Branches{
+    background-color: #696d69;
+    color:  white;
+  }
+  .you_can_have_it_all{
+    background-color: #696d69;
+    color:  white;
+  }
+  .navbar {
+    background-color: #696d69;
+  }
+  .dropdown-content a:hover {
+    background-color: #696d69;
+  }
+
+/* topbar container */
+  .topbar {
+    background-color: #696d69;
+  }
+  .navbar a {
+    color: white;
+  }
+  
+  .dropdown .dropbtn {
+    color: white;
+  }
+  
+  .dropdown-content {
+    background-color: #595e59;
+    color: white;
+  }
+  
+  .dropdown-content a {
+    color: white;
+  }
+  .dropdown-content {
+  }
+}
+
+.peaple_item {
+  color: black;
+  text-decoration: none;
+}
+.peaple_item  .name{
+  color: black;
+  text-decoration: none;
+}
+.peaple_profile{
+  text-decoration:initial;
+  color: initial;
+}
+
+/* more 4k */
+@media only screen and(max-width: 2560px){
+  html {
+     /* background:lightcoral;  */
+    }
+}
+/* 4K */
+@media only screen and (max-width: 2560px) and (min-width: 1440px)  {
+  html {
+     /* background:pink;  */
+    }
+}
+/* LAPTOP L >  LAPTOP*/
+@media only screen and (max-width: 1440px)  and (min-width: 1024px){
+  html { 
+    /* background:orange;  */
+  }
+}
+/* LAPTOP > tablit */
+@media only screen and (max-width: 1024px)  and (min-width: 768px){
+  html { 
+    /* background:forestgreen; */
+   }
+}
+/* tablit >  Moble L*/
+@media only screen and (max-width: 768px)  and (min-width: 425px){
+  html {
+     /* background:blue;  */
+    }
+  .main_div {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  
+  }
+  .wrapper{
+    display: grid;
+    margin-top: 10px;
+    grid-template-areas: "Branches Our_People you_can_have_it_all"
+                         "Join Out_Beliefs you_can_have_it_all";
+                         grid-gap: 10px;
+  
+  }  .topbar .search{
+    float: none;
+    }
+  .topbar a {
+    float: none;
+}
+  .navbar .search{
+    float: none;
+}
+  .navbar a {
+    display: block;
+    float: none;
+}
+}
+/* Moble L > Moble M  */
+@media only screen and (max-width: 425px)  and (min-width: 375px){
+  html { 
+    /* background:red;  */
+  }
+
+  .main_div {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  
+  }
+  .wrapper{
+    display: grid;
+    margin-top: 10px;
+    grid-template-areas: "Branches"
+                         "Join"
+                         "Our_People"
+                         "Out_Beliefs"
+                         "you_can_have_it_all"
+                         ;
+                         grid-gap: 10px;
+  
+  }
+  .navbar a {
+    float: none;
+    text-align: center;
+  }  .topbar .search{
+    float: none;
+    }
+  .topbar a {
+    float: none;
+}
+  .navbar .search{
+    float: none;
+}
+  .navbar a {
+    float: none;
+}
+.navbar a {
+  display: block;
+  float: none;
+}
+}
+/* Moble M  > Moble S */
+@media only screen and (max-width: 375px)  and (min-width: 320px){
+  html { 
+    /* background:violet; */
+   }
+
+  .main_div {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  
+  }
+  .wrapper{
+    display: grid;
+    margin-top: 10px;
+    grid-template-areas: "Branches"
+                         "Join"
+                         "Our_People"
+                         "Out_Beliefs"
+                         "you_can_have_it_all"
+                         ;
+                         grid-gap: 10px;
+  
+  }
+  .topbar .search{
+    float: none;
+    }
+  .topbar a {
+    float: none;
+}
+  .navbar .search{
+}
+  .navbar a {
+    height: 17ch ;
+}
+.navbar a {
+  display: block;
+}
+}
+/* Less Moble S */
+@media only screen and(max-width: 320px){
+  html { 
+    /* background:lightcoral;  */
+  }
+}
+@media print {
+  nav{
+    display: none;
+  }
+  .navbar{
+    display: none;
+
+  }
+  .main_div {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  
+  }
+  .navbar a {
+    display: block;
+    float: none;
+}
+}
+.wrapper a{
+  text-decoration: none;
+}
+
+
+.Branches:hover i{
+  color: red;
+}
+.Our_People:hover i{
+  color: green;
+}
+.Join:hover i{
+  color: blue;
+}
+.Out_Beliefs:hover i{
+  color: purple;
+}
+
+
+#facebook:hover{
+  color: blue;
+}
+#twitter:hover{
+  color: lightblue;
+}
+#donate:hover{
+
+  color: gold;
+}

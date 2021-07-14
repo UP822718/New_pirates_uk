@@ -1,0 +1,32 @@
+{
+  "name": "new_pirates_uk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssom": "^0.5.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "feedx": "^4.2.1",
+    "fs-walk": "^0.0.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^12.1.0",
+    "nano-csspack": "^1.0.2",
+    "node-html-parser": "^4.0.0",
+    "node-watch": "^0.7.1",
+    "parse-es-import": "^0.2.1",
+    "parse-es6-imports": "^1.0.1",
+    "parse-imports": "^1.1.0",
+    "parse-static-imports": "^1.1.0",
+    "sass": "^1.35.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6"
+  }
+}
